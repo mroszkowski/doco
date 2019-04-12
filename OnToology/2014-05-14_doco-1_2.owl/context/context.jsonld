@@ -1,0 +1,254 @@
+{
+  "@context" : {
+    "Index" : {
+      "@id" : "http://purl.org/spar/doco/Index"
+    },
+    "Line" : {
+      "@id" : "http://purl.org/spar/doco/Line"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "SimpleRunInQuotation" : {
+      "@id" : "http://purl.org/spar/doco/SimpleRunInQuotation"
+    },
+    "ChapterTitle" : {
+      "@id" : "http://purl.org/spar/doco/ChapterTitle"
+    },
+    "TableOfContents" : {
+      "@id" : "http://purl.org/spar/doco/TableOfContents"
+    },
+    "DiscourseElement" : {
+      "@id" : "http://purl.org/spar/deo/DiscourseElement"
+    },
+    "Title" : {
+      "@id" : "http://purl.org/spar/doco/Title"
+    },
+    "Foreword" : {
+      "@id" : "http://purl.org/spar/doco/Foreword"
+    },
+    "isContainedBy" : {
+      "@id" : "http://www.essepuntato.it/2008/12/pattern#isContainedBy",
+      "@type" : "@id"
+    },
+    "Milestone" : {
+      "@id" : "http://www.essepuntato.it/2008/12/pattern#Milestone"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "contains" : {
+      "@id" : "http://www.essepuntato.it/2008/12/pattern#contains",
+      "@type" : "@id"
+    },
+    "isPartOf" : {
+      "@id" : "http://purl.org/dc/terms/isPartOf",
+      "@type" : "@id"
+    },
+    "hasPart" : {
+      "@id" : "http://purl.org/dc/terms/hasPart",
+      "@type" : "@id"
+    },
+    "SectionSubtitle" : {
+      "@id" : "http://purl.org/spar/doco/SectionSubtitle"
+    },
+    "Colophon" : {
+      "@id" : "http://purl.org/spar/doco/Colophon"
+    },
+    "BibliographicReference" : {
+      "@id" : "http://purl.org/spar/deo/BibliographicReference"
+    },
+    "ComplexRunInQuotation" : {
+      "@id" : "http://purl.org/spar/doco/ComplexRunInQuotation"
+    },
+    "ListOfAgents" : {
+      "@id" : "http://purl.org/spar/doco/ListOfAgents"
+    },
+    "Chapter" : {
+      "@id" : "http://purl.org/spar/doco/Chapter"
+    },
+    "TextBox" : {
+      "@id" : "http://purl.org/spar/doco/TextBox"
+    },
+    "ListOfOrganizations" : {
+      "@id" : "http://purl.org/spar/doco/ListOfOrganizations"
+    },
+    "Formula" : {
+      "@id" : "http://purl.org/spar/doco/Formula"
+    },
+    "Block" : {
+      "@id" : "http://www.essepuntato.it/2008/12/pattern#Block"
+    },
+    "isContainedByAsHeader" : {
+      "@id" : "http://www.essepuntato.it/2008/12/pattern#isContainedByAsHeader",
+      "@type" : "@id"
+    },
+    "Sentence" : {
+      "@id" : "http://purl.org/spar/doco/Sentence"
+    },
+    "FigureBox" : {
+      "@id" : "http://purl.org/spar/doco/FigureBox"
+    },
+    "Pattern" : {
+      "@id" : "http://www.essepuntato.it/2008/12/pattern#Pattern"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "BackMatter" : {
+      "@id" : "http://purl.org/spar/doco/BackMatter"
+    },
+    "TableLabel" : {
+      "@id" : "http://purl.org/spar/doco/TableLabel"
+    },
+    "Figure" : {
+      "@id" : "http://purl.org/spar/doco/Figure"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/elements/1.1/rights"
+    },
+    "Container" : {
+      "@id" : "http://www.essepuntato.it/2008/12/pattern#Container"
+    },
+    "Meta" : {
+      "@id" : "http://www.essepuntato.it/2008/12/pattern#Meta"
+    },
+    "ChapterLabel" : {
+      "@id" : "http://purl.org/spar/doco/ChapterLabel"
+    },
+    "Section" : {
+      "@id" : "http://purl.org/spar/doco/Section"
+    },
+    "ListOfReferences" : {
+      "@id" : "http://purl.org/spar/doco/ListOfReferences"
+    },
+    "FormulaBox" : {
+      "@id" : "http://purl.org/spar/doco/FormulaBox"
+    },
+    "BlockQuotation" : {
+      "@id" : "http://purl.org/spar/doco/BlockQuotation"
+    },
+    "HeadedContainer" : {
+      "@id" : "http://www.essepuntato.it/2008/12/pattern#HeadedContainer"
+    },
+    "Afterword" : {
+      "@id" : "http://purl.org/spar/doco/Afterword"
+    },
+    "Abstract" : {
+      "@id" : "http://salt.semanticauthoring.org/ontologies/sro#Abstract"
+    },
+    "Part" : {
+      "@id" : "http://purl.org/spar/doco/Part"
+    },
+    "CaptionedBox" : {
+      "@id" : "http://purl.org/spar/doco/CaptionedBox"
+    },
+    "ListOfTables" : {
+      "@id" : "http://purl.org/spar/doco/ListOfTables"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "FrontMatter" : {
+      "@id" : "http://purl.org/spar/doco/FrontMatter"
+    },
+    "Footnote" : {
+      "@id" : "http://purl.org/spar/doco/Footnote"
+    },
+    "Inline" : {
+      "@id" : "http://www.essepuntato.it/2008/12/pattern#Inline"
+    },
+    "Label" : {
+      "@id" : "http://purl.org/spar/doco/Label"
+    },
+    "Glossary" : {
+      "@id" : "http://purl.org/spar/doco/Glossary"
+    },
+    "List" : {
+      "@id" : "http://purl.org/spar/doco/List"
+    },
+    "BibliographicReferenceList" : {
+      "@id" : "http://purl.org/spar/doco/BibliographicReferenceList"
+    },
+    "SectionTitle" : {
+      "@id" : "http://purl.org/spar/doco/SectionTitle"
+    },
+    "TableBox" : {
+      "@id" : "http://purl.org/spar/doco/TableBox"
+    },
+    "Bibliography" : {
+      "@id" : "http://purl.org/spar/doco/Bibliography"
+    },
+    "Stanza" : {
+      "@id" : "http://purl.org/spar/doco/Stanza"
+    },
+    "Subtitle" : {
+      "@id" : "http://purl.org/spar/doco/Subtitle"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "ListOfFigures" : {
+      "@id" : "http://purl.org/spar/doco/ListOfFigures"
+    },
+    "Appendix" : {
+      "@id" : "http://purl.org/spar/doco/Appendix"
+    },
+    "Popup" : {
+      "@id" : "http://www.essepuntato.it/2008/12/pattern#Popup"
+    },
+    "ListOfContributors" : {
+      "@id" : "http://purl.org/spar/doco/ListOfContributors"
+    },
+    "TextChunk" : {
+      "@id" : "http://purl.org/spar/doco/TextChunk"
+    },
+    "Field" : {
+      "@id" : "http://www.essepuntato.it/2008/12/pattern#Field"
+    },
+    "Paragraph" : {
+      "@id" : "http://purl.org/spar/doco/Paragraph"
+    },
+    "ChapterSubtitle" : {
+      "@id" : "http://purl.org/spar/doco/ChapterSubtitle"
+    },
+    "ListOfAuthors" : {
+      "@id" : "http://purl.org/spar/doco/ListOfAuthors"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Table" : {
+      "@id" : "http://www.essepuntato.it/2008/12/pattern#Table"
+    },
+    "FigureLabel" : {
+      "@id" : "http://purl.org/spar/doco/FigureLabel"
+    },
+    "Preface" : {
+      "@id" : "http://purl.org/spar/doco/Preface"
+    },
+    "BodyMatter" : {
+      "@id" : "http://purl.org/spar/doco/BodyMatter"
+    },
+    "Reference" : {
+      "@id" : "http://purl.org/spar/deo/Reference"
+    },
+    "Caption" : {
+      "@id" : "http://purl.org/spar/deo/Caption"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "SectionLabel" : {
+      "@id" : "http://purl.org/spar/doco/SectionLabel"
+    },
+    "relation" : {
+      "@id" : "http://purl.org/dc/terms/relation",
+      "@type" : "@id"
+    }
+  }
+}
